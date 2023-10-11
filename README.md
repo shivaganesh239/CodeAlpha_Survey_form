@@ -34,7 +34,7 @@ The Luxe Ware Retailers Survey Form is a tool for gathering valuable insights fr
 
 ## How to Use
 
-1. *Access the Form:* Open the [Luxe Ware Retailers Survey Form](#) (insert the link to your form here).
+1. *Access the Form:* Open the [Luxe Ware Retailers Survey Form]
 
 2. *Complete the Survey:* Fill out the survey form, providing honest feedback and responses to the questions.
 
