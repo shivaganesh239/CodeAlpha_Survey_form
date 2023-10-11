@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <div class="container">
+        <h1>  LuxeWare Retailers
+        </h1>
+        <p>We appreciate your feedback. Please fill out the survey below:</p>
+        <form action="#" method="POST">
+            <div class="form-group">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
+            </div>
+            <div class="form-group">
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+            </div>
+            <div class="form-group">
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <div><label for="How did you first hear about our business?"> How did you first hear about our business? </label> </div>
+                <div><input type="checkbox" class="hear" name="platform"> Word of mouth </input> </div>
+                <div><input type="checkbox" class="hear" name="platform"> Online search </input> </div>
+                <div><input type="checkbox" class="hear" name="platform"> Social media </input> </div>
+                <div><input type="checkbox" class="hear" name="platform"> Advertisement</input> </div>
+              </div>
+
+              <div class="form-group">
+                <label for="competitive-prices"> Are our prices competitive compared to similar businesses in the area?</label>
+                <label for="competitive-prices-yes"><input type="radio" id="competitive-prices-yes" name="competitive-prices" value="yes">
+                Yes</label>
+                <label for="competitive-prices-no"><input type="radio" id="competitive-prices-no" name="competitive-prices" value="no">
+                No</label>
+                <label for="competitive-prices-not-sure"><input type="radio" id="competitive-prices-not-sure" name="competitive-prices" value="not-sure">
+                Not sure</label>
+            </div>
+            
+            <div class="form-group">
+                <label for="recommend"> How likely are you to recommend our products/services to others?</label>
+                <select id="recommend" name="recommend">
+                    <option value="very-likely">Very likely</option>
+                    <option value="likely">Likely</option>
+                    <option value="neutral">Neutral</option>
+                    <option value="unlikely">Unlikely</option>
+                    <option value="very-unlikely">Very unlikely</option>
+                </select>
+            </div>
+
+              <div class="form-group">
+                <label for="subscribe"> Would you be interested in receiving promotional offers or updates from us via email?</label>
+                <label for="subscribe-yes"><input type="radio" id="subscribe-yes" name="subscribe" value="yes">
+                Yes</label>
+                <label for="subscribe-no"><input type="radio" id="subscribe-no" name="subscribe" value="no">
+                No</label>
+                </div>
+
+            <div class="form-group">
+                <label for="comments">Additional Comments:</label>
+                <textarea id="comments" name="comments" rows="4"></textarea>
+            </div>
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
+ 
